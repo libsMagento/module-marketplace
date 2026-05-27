@@ -1,0 +1,24 @@
+name: flutter_magento_marketplace
+description: Multi-vendor marketplace support for Flutter Magento SDK
+version: 2.0.0
+repository: https://github.com/libsMagento/flutter_magento
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_magento_core:
+    path: ../flutter_magento_core
+  flutter_magento_cart:
+    path: ../flutter_magento_cart
+  flutter_magento_catalog:
+    path: ../flutter_magento_catalog
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^5.0.0
